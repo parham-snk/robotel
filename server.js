@@ -1,4 +1,4 @@
-
+const app = require("express")()
 const Bot = require("node-telegram-bot-api")
 const path = require("path")
 
@@ -42,3 +42,5 @@ bot.on("message", msg => {
 
 
 })
+
+app.listen(8080,err?console.log(err):console.log("server online !"))
