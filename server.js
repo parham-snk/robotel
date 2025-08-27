@@ -43,4 +43,4 @@ bot.on("message", msg => {
 
 })
 
-app.listen(8080,err?console.log(err):console.log("server online !"))
+app.listen(8080,err=>err?console.log(err):console.log("server online !"))
